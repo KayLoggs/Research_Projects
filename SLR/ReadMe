@@ -1,1 +1,63 @@
+A. Code Dependancies
+Install these tools & libraries before running the code.
+~ Python: Programming language used for analysis.
+~ Pandas: For data manipulation and analysis.
+~ NumPy: For numerical operations.
+~ Matplotlib and Seaborn: For data visualization.
+~ Scikit-Learn: For various classification, regression and clustering algorithms.
 
+B. Coding Task Name - Simple Linear Regression (Insurance Dataset)
+Linear regression strives to show the relationship between two variables by applying a linear equation to observed data. One variable is supposed to be an independent variable, and the other is to be a dependent variable.
+
+C. Table of Contents
+~ Introduction
+~ Dataset Description
+~ Objectives
+~ Data Preparation
+~ Exploratory Data Analysis
+~ Modeling
+~ Evaluation
+~ Conclusion
+
+D. Introduction.
+This model was applied on an insurance dataset to basically determine how age affects insurance costs. And subsequently, to analyze and predict insurance charges based on various features provided in the dataset. The primary goal is to understand the relationship between the independent variables and the insurance charges though.
+
+E. Dataset Description
+The insurance dataset contains data about insurance policyholders. The key features in the dataset include:
+~ age: Age of the policyholder
+~ sex: Gender of the policyholder (male, female)
+~ bmi: Body mass index
+~ children: Number of children/dependents covered by the insurance
+~ smoker: Smoking status of the policyholder (yes, no)
+~ region: Residential region of the policyholder (northeast, northwest, southeast, southwest)
+~ charges: Medical charges billed by the insurance
+
+F. Objectives
+~ Data Cleaning: Handle missing values and correct inconsistencies.
+~ Exploratory Data Analysis: Understand the distribution and relationships between features.
+~ Feature Selection: Identify the most significant features for predicting insurance charges.
+~ Modeling: Develop a Simple Linear Regression model.
+~ Evaluation: Assess the model's performance using appropriate metrics.
+~ Visualization: Create visualizations to illustrate findings and model performance
+
+G. Data Preparation
+~ Loading Data: Load the dataset into a Pandas DataFrame.
+~ Handling Missing Values: Check for and handle any missing values.
+~ Data Transformation: Encode categorical variables and normalize/scale numerical features if necessary.
+
+H. Exploratory Data Analysis
+~ Descriptive Statistics: Compute summary statistics for numerical and categorical features.
+~ Distribution Analysis: Visualize the distribution of features using histograms and box plots.
+~ Correlation Analysis: Use scatter plots and correlation matrices to examine relationships between features and the target variable (charges).
+
+I. Modeling
+~ Simple Linear Regression: Fit a Simple Linear Regression model to predict insurance charges using one of the significant features (e.g., Age).
+~ Model Training: Split the data into training and testing sets and train the model on the training data.
+~ Model Coefficients: Extract and interpret the coefficients of the linear regression model.
+
+J. Evaluation
+~ Performance Metrics: Evaluate the model using metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), and R-squared.
+~ Residual Analysis: Analyze the residuals to check for any patterns or anomalies.
+
+K. Conclusion
+Summarize the findings, including the relationship between the chosen feature and the insurance charges, and discuss the model's performance. Provide insights and potential improvements for future work.
