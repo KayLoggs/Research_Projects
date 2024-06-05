@@ -1,1 +1,60 @@
+A. Code Dependancies
+Install these tools & libraries before running the code.
+~ Python: Programming language used for analysis.
+~ Pandas: For data manipulation and analysis.
+~ NumPy: For numerical operations.
+~ Matplotlib and Seaborn: For data visualization. 
 
+B. Coding Task Name - Exploratory Data Analysis (Titanic Dataset)
+Exploratory Data Analysis (EDA) is a crucial step in the data science process that involves analyzing and summarizing the main characteristics of a dataset, often employing visual methods.This project involves conducting Exploratory Data Analysis (EDA) on the Titanic dataset. The goal of this analysis is to understand the data, identify key patterns and relationships, and prepare the data for further modeling and analysis. Some primary purposes of EDA include:
+
+Understanding the Data Structure:
+~ Identify Patterns and Trends: EDA helps in identifying patterns, trends, and relationships within the data.
+~ Detect Anomalies and Outliers: It is used to detect any anomalies or outliers that may affect the analysis.
+Variable Selection:
+~ Determine Important Variables: Assists in determining which variables are important for analysis and modeling.
+~ Reduce Dimensionality: Helps in reducing the dimensionality of the dataset by identifying redundant or irrelevant variables.
+And this tool was used to explore the Titanic Dataset to identify most important factor in determining survival of the Titanic
+incident.Also to verify and confirm which class of passengers & gender were given preferential treatment.
+
+C. Dataset Description
+The Titanic dataset is a well-known dataset in the data science community. It contains data about passengers on the Titanic, which sank in 1912 after colliding with an iceberg. The dataset includes various features about the passengers, such as:
+
+~ PassengerId: Unique identifier for each passenger
+~ Survived: Survival status (0 = No, 1 = Yes)
+~ Pclass: Passenger class (1 = 1st, 2 = 2nd, 3 = 3rd)
+~ Name: Name of the passenger
+~ Sex: Gender of the passenger
+~ Age: Age of the passenger
+~ SibSp: Number of siblings/spouses aboard the Titanic
+~ Parch: Number of parents/children aboard the Titanic
+~ Ticket: Ticket number
+~ Fare: Fare paid for the ticket
+~ Cabin: Cabin number
+~ Embarked: Port of embarkation
+
+D. Objectives
+~ Data Cleaning:
+Handle missing values.
+Correct inconsistencies in the data.
+Convert categorical variables into numeric format if necessary.
+
+~ Data Exploration:
+Understand the distribution of features.
+Identify relationships between features and survival rate.
+Detect outliers and anomalies.
+
+~ Feature Engineering:
+Create new features that may improve model performance.
+Transform existing features for better analysis.
+
+~ Visualization:
+Use visual methods to illustrate key findings and patterns.
+Generate plots to show relationships between features and survival.
+
+E. Conclusion
+EDA on the Titanic dataset helps in understanding the key factors that influenced the survival of passengers. By cleaning the data, exploring its structure, engineering new features, and visualizing relationships, we gain valuable insights that can guide further predictive modeling efforts.
+
+F. References
+Kaggle Titanic Dataset: Titanic: Machine Learning from Disaster
+Documentation for libraries used: Pandas, NumPy, Matplotlib, Seaborn
