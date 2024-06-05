@@ -18,6 +18,7 @@ C. Table of Contents
 ~ Modeling
 ~ Evaluation
 ~ Conclusion
+~ Credits
 
 D. Introduction.
 This model was applied on an insurance dataset to basically determine how age affects insurance costs. And subsequently, to analyze and predict insurance charges based on various features provided in the dataset. The primary goal is to understand the relationship between the independent variables and the insurance charges though.
@@ -62,3 +63,8 @@ J. Evaluation
 K. Conclusion
 Summarize the findings, including the relationship between the chosen feature and the insurance charges, and discuss the model's performance. Provide insights and potential improvements for future work.
 
+L. Credits
+This project was developed and maintained by Kayloggs.
+For any questions or suggestions, feel free to reach out via email at amoebaeuglena123@yahoo.com
+
+Thank you for using this code! Your feedback and contributions are highly appreciated.
